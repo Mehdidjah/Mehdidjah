@@ -1,0 +1,108 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-profile-stats.yml"
+      - "scripts/validate-stats.py"
+      - "scripts/archive-stats.py"
+      - "scripts/add-yearly-contributions.py"
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Select the calendar year
+        id: season
+        run: echo "year=$(TZ=Africa/Algiers date +%Y)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate yearly stats for dark mode
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=Mehdidjah&commits_year=${{ steps.season.outputs.year }}&custom_title=Mehdi%27s%20GitHub%20stats%20%C2%B7%20${{ steps.season.outputs.year }}%20snapshot&card_width=495&border_radius=8&disable_animations=true&number_format=long&show_icons=false&bg_color=0D1117&border_color=30363D&title_color=E6EDF3&text_color=C9D1D9&ring_color=9DCBB6
+          path: assets/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate yearly stats for light mode
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=Mehdidjah&commits_year=${{ steps.season.outputs.year }}&custom_title=Mehdi%27s%20GitHub%20stats%20%C2%B7%20${{ steps.season.outputs.year }}%20snapshot&card_width=495&border_radius=8&disable_animations=true&number_format=long&show_icons=false&bg_color=FFFFFF&border_color=EAEAEA&title_color=1F2328&text_color=59636E&ring_color=346538
+          path: assets/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Add the profile calendar's yearly contribution total
+        env:
+          SNAPSHOT_YEAR: ${{ steps.season.outputs.year }}
+        run: python3 scripts/add-yearly-contributions.py --year "$SNAPSHOT_YEAR"
+
+      - name: Generate streak card for dark mode
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
+        with:
+          options: user=Mehdidjah&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=0D1117&border=30363D&stroke=30363D&ring=9DCBB6&fire=9DCBB6&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=9DCBB6&sideLabels=C9D1D9&dates=9198A1
+          path: assets/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card for light mode
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
+        with:
+          options: user=Mehdidjah&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=FFFFFF&border=EAEAEA&stroke=EAEAEA&ring=346538&fire=346538&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=346538&sideLabels=59636E&dates=59636E
+          path: assets/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate languages card for dark mode
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=Mehdidjah&layout=compact&langs_count=6&card_width=495&border_radius=8&disable_animations=true&custom_title=Most%20used%20languages&bg_color=0D1117&border_color=30363D&title_color=E6EDF3&text_color=C9D1D9
+          path: assets/languages-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate languages card for light mode
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=Mehdidjah&layout=compact&langs_count=6&card_width=495&border_radius=8&disable_animations=true&custom_title=Most%20used%20languages&bg_color=FFFFFF&border_color=EAEAEA&title_color=1F2328&text_color=59636E
+          path: assets/languages-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      # A failed generation or validation stops the job before it can publish.
+      # The last successful SVGs therefore remain visible in the README.
+      - name: Validate every card before publishing
+        run: python3 scripts/validate-stats.py
+
+      - name: Archive this year's snapshot
+        env:
+          SNAPSHOT_YEAR: ${{ steps.season.outputs.year }}
+        run: python3 scripts/archive-stats.py --year "$SNAPSHOT_YEAR"
+
+      - name: Save updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-dark.svg assets/stats-light.svg assets/streak-dark.svg assets/streak-light.svg assets/languages-dark.svg assets/languages-light.svg stats/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Refresh profile stats"
+          git push
