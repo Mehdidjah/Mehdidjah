@@ -12,6 +12,7 @@ on:
       - "scripts/archive-stats.py"
       - "scripts/add-yearly-contributions.py"
       - "scripts/refresh-readme.py"
+      - "scripts/set-contribution-period.py"
 
 concurrency:
   group: profile-stats
@@ -58,16 +59,19 @@ jobs:
       - name: Generate streak card for dark mode
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
         with:
-          options: user=Mehdidjah&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=0D1117&border=30363D&stroke=30363D&ring=9DCBB6&fire=9DCBB6&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=9DCBB6&sideLabels=C9D1D9&dates=9198A1
+          options: user=Mehdidjah&starting_year=2020&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=0D1117&border=30363D&stroke=30363D&ring=9DCBB6&fire=9DCBB6&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=9DCBB6&sideLabels=C9D1D9&dates=9198A1
           path: assets/streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card for light mode
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1
         with:
-          options: user=Mehdidjah&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=FFFFFF&border=EAEAEA&stroke=EAEAEA&ring=346538&fire=346538&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=346538&sideLabels=59636E&dates=59636E
+          options: user=Mehdidjah&starting_year=2020&mode=daily&timezone=Africa%2FAlgiers&card_width=495&card_height=195&border_radius=8&disable_animations=true&background=FFFFFF&border=EAEAEA&stroke=EAEAEA&ring=346538&fire=346538&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=346538&sideLabels=59636E&dates=59636E
           path: assets/streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set the contribution tracking period
+        run: python3 scripts/set-contribution-period.py
 
       - name: Generate languages card for dark mode
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2

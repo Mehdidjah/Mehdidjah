@@ -39,6 +39,9 @@ def validate_card(path: Path, kind: str) -> None:
             raise ValueError(f"{path.name}: missing streak labels")
         if len([label for label in labels if re.fullmatch(r"[\d,]+", label)]) < 3:
             raise ValueError(f"{path.name}: missing contribution or streak counts")
+        if (root.attrib.get("data-contributions-start") != "2020-05-02"
+                or "May 2, 2020 - Present" not in labels):
+            raise ValueError(f"{path.name}: missing the requested contribution period")
     elif kind == "languages":
         if "most used languages" not in lower or not re.search(r"\d+(?:\.\d+)?%", text):
             raise ValueError(f"{path.name}: missing language percentages")
