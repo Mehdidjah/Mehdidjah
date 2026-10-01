@@ -24,6 +24,10 @@ Currently working with **Thinkercare Group** and deepening my skills in **JavaSc
 
 ### GitHub activity
 
+<!-- stats-updated:start -->
+<sub>Stats are scheduled to refresh hourly.</sub>
+<!-- stats-updated:end -->
+
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />

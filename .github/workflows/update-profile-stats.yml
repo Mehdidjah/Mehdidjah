@@ -2,7 +2,7 @@ name: Update profile stats
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,6 +11,7 @@ on:
       - "scripts/validate-stats.py"
       - "scripts/archive-stats.py"
       - "scripts/add-yearly-contributions.py"
+      - "scripts/refresh-readme.py"
 
 concurrency:
   group: profile-stats
@@ -96,11 +97,14 @@ jobs:
           SNAPSHOT_YEAR: ${{ steps.season.outputs.year }}
         run: python3 scripts/archive-stats.py --year "$SNAPSHOT_YEAR"
 
+      - name: Update the README timestamp and image versions
+        run: python3 scripts/refresh-readme.py
+
       - name: Save updated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats-dark.svg assets/stats-light.svg assets/streak-dark.svg assets/streak-light.svg assets/languages-dark.svg assets/languages-light.svg stats/
+          git add README.md assets/stats-dark.svg assets/stats-light.svg assets/streak-dark.svg assets/streak-light.svg assets/languages-dark.svg assets/languages-light.svg stats/
           if git diff --cached --quiet; then
             exit 0
           fi

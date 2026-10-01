@@ -17,7 +17,7 @@ Each year retains its last successful snapshot. Select a year to view its card.
 - **Rank:** the provider's GitHub Readme Stats score, based on its public stats. Adding the calendar contribution total does not change this score.
 
 These are yearly snapshots, not annual totals for every metric. An active year
-updates daily; completed years keep their last successful snapshot and its date.
+is scheduled to update hourly; completed years keep their last successful snapshot and its date.
 Tracking starts with the first saved snapshot. Years before that are not backfilled.
 
 [How GitHub counts contributions](https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference) · [Other metric definitions](https://github-stats-extended.vercel.app/frontend/docs/cards/stats/)
