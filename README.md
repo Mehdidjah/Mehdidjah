@@ -1,6 +1,6 @@
 # Hi, I'm Mehdi
 
-**Frontend developer · Algeria**
+**Web developer · Algeria**
 
 I build fast, interactive web experiences with a focus on motion, thoughtful interfaces, and performance.
 
