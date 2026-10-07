@@ -25,14 +25,14 @@ Currently working with **Thinkercare Group** and deepening my skills in **JavaSc
 ### GitHub activity
 
 <!-- stats-updated:start -->
-<sub>Updated 2026-10-07 07:13 UTC · Scheduled hourly.</sub>
+<sub>Updated 2026-10-07 14:30 UTC · Scheduled hourly.</sub>
 <!-- stats-updated:end -->
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=3a693fe3bf8af017" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg?v=3a693fe3bf8af017" />
-    <img src="./assets/stats-light.svg?v=3a693fe3bf8af017" alt="Mehdi's yearly GitHub stats: calendar-year contributions including visible private activity, public commits, total stars, pull requests, issues, contributed repositories, and rank" width="495" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=85d2366a1c41a8e6" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg?v=85d2366a1c41a8e6" />
+    <img src="./assets/stats-light.svg?v=85d2366a1c41a8e6" alt="Mehdi's yearly GitHub stats: calendar-year contributions including visible private activity, public commits, total stars, pull requests, issues, contributed repositories, and rank" width="495" />
   </picture>
 </p>
 
@@ -42,17 +42,17 @@ Currently working with **Thinkercare Group** and deepening my skills in **JavaSc
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg?v=3a693fe3bf8af017" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg?v=3a693fe3bf8af017" />
-    <img src="./assets/streak-light.svg?v=3a693fe3bf8af017" alt="Mehdi's total GitHub contributions, current daily streak, and longest streak" width="495" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg?v=85d2366a1c41a8e6" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg?v=85d2366a1c41a8e6" />
+    <img src="./assets/streak-light.svg?v=85d2366a1c41a8e6" alt="Mehdi's total GitHub contributions, current daily streak, and longest streak" width="495" />
   </picture>
 </p>
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg?v=3a693fe3bf8af017" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg?v=3a693fe3bf8af017" />
-    <img src="./assets/languages-light.svg?v=3a693fe3bf8af017" alt="Mehdi's most-used languages by code size in public, non-fork repositories" width="495" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg?v=85d2366a1c41a8e6" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg?v=85d2366a1c41a8e6" />
+    <img src="./assets/languages-light.svg?v=85d2366a1c41a8e6" alt="Mehdi's most-used languages by code size in public, non-fork repositories" width="495" />
   </picture>
 </p>
 
