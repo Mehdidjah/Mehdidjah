@@ -1,6 +1,8 @@
 """Reject blank SVGs and error cards before a workflow replaces the saved stats."""
 
 from pathlib import Path
+from collections import Counter
+import json
 import re
 import xml.etree.ElementTree as ET
 
@@ -45,6 +47,31 @@ def validate_card(path: Path, kind: str) -> None:
     elif kind == "languages":
         if "most used languages" not in lower or not re.search(r"\d+(?:\.\d+)?%", text):
             raise ValueError(f"{path.name}: missing language percentages")
+        snapshot = json.loads((ROOT / "stats" / "languages.json").read_text())
+        expected = Counter(snapshot["public"]["languages"]) + Counter(snapshot["private"]["languages"])
+        total = sum(expected.values())
+        rows = [element for element in root.iter() if "data-language" in element.attrib]
+        actual = {row.attrib["data-language"]: int(row.attrib["data-bytes"]) for row in rows}
+        if actual != expected or len(rows) != len(expected):
+            raise ValueError(f"{path.name}: languages were omitted, duplicated, or changed")
+        if (root.attrib.get("data-total-bytes") != str(total)
+                or root.attrib.get("data-language-count") != str(len(expected))):
+            raise ValueError(f"{path.name}: incorrect percentage denominator")
+        for row in rows:
+            share = expected[row.attrib["data-language"]] * 100 / total
+            label = "<0.01%" if share < 0.01 else f"{share:.2f}%"
+            values = ["".join(element.itertext()) for element in row.iter(f"{SVG_NAMESPACE}text")]
+            if values != [row.attrib["data-language"], label]:
+                raise ValueError(f"{path.name}: incorrect language label or percentage")
+        forks = {element.attrib["data-fork-language"] for element in root.iter()
+                 if "data-fork-language" in element.attrib}
+        if forks != set(snapshot["forks"]["languages"]) - set(expected):
+            raise ValueError(f"{path.name}: missing fork-only languages")
+        if forks and ("Also in forked projects" not in text or not all(name in text for name in forks)):
+            raise ValueError(f"{path.name}: fork-only languages are not visibly labeled")
+        if (root.attrib.get("data-private-captured-at") != snapshot["private"]["captured_at"]
+                or f'Private snapshot: {snapshot["private"]["captured_at"][:10]}' not in text):
+            raise ValueError(f"{path.name}: missing private snapshot date")
     elif kind == "stats":
         values = {
             element.attrib["data-testid"]: "".join(element.itertext()).strip()
@@ -73,6 +100,8 @@ def main() -> None:
     for kind in ("stats", "streak", "languages"):
         for theme in ("dark", "light"):
             validate_card(ROOT / "assets" / f"{kind}-{theme}.svg", kind)
+            if kind == "languages":
+                validate_card(ROOT / "assets" / f"{kind}-{theme}-mobile.svg", kind)
 
 
 if __name__ == "__main__":

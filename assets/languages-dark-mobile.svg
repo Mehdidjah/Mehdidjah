@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="649" viewBox="0 0 360 649" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="34728244" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
+<title id="title">Most used languages</title>
+<desc id="description">All 28 languages by code size in 100 public and private non-fork repositories. TypeScript: 49.38%; JavaScript: 11.86%; CSS: 11.37%; HTML: 9.60%; Liquid: 8.48%; Go: 2.67%; Vue: 1.30%; Svelte: 1.05%; Dart: 1.02%; C++: 0.74%; Elixir: 0.61%; Swift: 0.57%; Astro: 0.50%; C: 0.18%; Lua: 0.18%; Python: 0.14%; CMake: 0.08%; Java: 0.07%; Shell: 0.04%; PLpgSQL: 0.04%; Dockerfile: 0.04%; SCSS: 0.04%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-15; private snapshot 2026-10-15; forks snapshot 2026-10-15.</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:17px;font-weight:600;fill:#E6EDF3}.label{font-size:13px;fill:#C9D1D9}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#E6EDF3}.note{font-size:11px;fill:#9198A1}.section{font-size:12px;font-weight:600;fill:#9DCBB6}</style>
+<rect x="0.5" y="0.5" width="359" height="648" rx="8" fill="#0D1117" stroke="#30363D"/>
+<text x="18" y="33" class="heading">Most used languages</text>
+<text x="18" y="55" class="note">Code size · Public + private · Non-fork repositories</text>
+<text x="18" y="73" class="note">All 28 languages · 100 repositories</text>
+<path d="M 18 87 H 342" stroke="#30363D"/>
+<g data-language="TypeScript" data-bytes="17148265">
+<text x="18" y="112" class="label">TypeScript</text>
+<text x="171" y="112" text-anchor="end" class="value">49.38%</text>
+</g>
+<g data-language="JavaScript" data-bytes="4117229">
+<text x="18" y="139" class="label">JavaScript</text>
+<text x="171" y="139" text-anchor="end" class="value">11.86%</text>
+</g>
+<g data-language="CSS" data-bytes="3948507">
+<text x="18" y="166" class="label">CSS</text>
+<text x="171" y="166" text-anchor="end" class="value">11.37%</text>
+</g>
+<g data-language="HTML" data-bytes="3333313">
+<text x="18" y="193" class="label">HTML</text>
+<text x="171" y="193" text-anchor="end" class="value">9.60%</text>
+</g>
+<g data-language="Liquid" data-bytes="2943233">
+<text x="18" y="220" class="label">Liquid</text>
+<text x="171" y="220" text-anchor="end" class="value">8.48%</text>
+</g>
+<g data-language="Go" data-bytes="927350">
+<text x="18" y="247" class="label">Go</text>
+<text x="171" y="247" text-anchor="end" class="value">2.67%</text>
+</g>
+<g data-language="Vue" data-bytes="449847">
+<text x="18" y="274" class="label">Vue</text>
+<text x="171" y="274" text-anchor="end" class="value">1.30%</text>
+</g>
+<g data-language="Svelte" data-bytes="363148">
+<text x="18" y="301" class="label">Svelte</text>
+<text x="171" y="301" text-anchor="end" class="value">1.05%</text>
+</g>
+<g data-language="Dart" data-bytes="355751">
+<text x="18" y="328" class="label">Dart</text>
+<text x="171" y="328" text-anchor="end" class="value">1.02%</text>
+</g>
+<g data-language="C++" data-bytes="258150">
+<text x="18" y="355" class="label">C++</text>
+<text x="171" y="355" text-anchor="end" class="value">0.74%</text>
+</g>
+<g data-language="Elixir" data-bytes="211154">
+<text x="18" y="382" class="label">Elixir</text>
+<text x="171" y="382" text-anchor="end" class="value">0.61%</text>
+</g>
+<g data-language="Swift" data-bytes="199647">
+<text x="18" y="409" class="label">Swift</text>
+<text x="171" y="409" text-anchor="end" class="value">0.57%</text>
+</g>
+<g data-language="Astro" data-bytes="175022">
+<text x="18" y="436" class="label">Astro</text>
+<text x="171" y="436" text-anchor="end" class="value">0.50%</text>
+</g>
+<g data-language="C" data-bytes="62200">
+<text x="18" y="463" class="label">C</text>
+<text x="171" y="463" text-anchor="end" class="value">0.18%</text>
+</g>
+<g data-language="Lua" data-bytes="61238">
+<text x="189" y="112" class="label">Lua</text>
+<text x="342" y="112" text-anchor="end" class="value">0.18%</text>
+</g>
+<g data-language="Python" data-bytes="47412">
+<text x="189" y="139" class="label">Python</text>
+<text x="342" y="139" text-anchor="end" class="value">0.14%</text>
+</g>
+<g data-language="CMake" data-bytes="29064">
+<text x="189" y="166" class="label">CMake</text>
+<text x="342" y="166" text-anchor="end" class="value">0.08%</text>
+</g>
+<g data-language="Java" data-bytes="24584">
+<text x="189" y="193" class="label">Java</text>
+<text x="342" y="193" text-anchor="end" class="value">0.07%</text>
+</g>
+<g data-language="Shell" data-bytes="15129">
+<text x="189" y="220" class="label">Shell</text>
+<text x="342" y="220" text-anchor="end" class="value">0.04%</text>
+</g>
+<g data-language="PLpgSQL" data-bytes="14511">
+<text x="189" y="247" class="label">PLpgSQL</text>
+<text x="342" y="247" text-anchor="end" class="value">0.04%</text>
+</g>
+<g data-language="Dockerfile" data-bytes="12995">
+<text x="189" y="274" class="label">Dockerfile</text>
+<text x="342" y="274" text-anchor="end" class="value">0.04%</text>
+</g>
+<g data-language="SCSS" data-bytes="12679">
+<text x="189" y="301" class="label">SCSS</text>
+<text x="342" y="301" text-anchor="end" class="value">0.04%</text>
+</g>
+<g data-language="C#" data-bytes="11411">
+<text x="189" y="328" class="label">C#</text>
+<text x="342" y="328" text-anchor="end" class="value">0.03%</text>
+</g>
+<g data-language="Makefile" data-bytes="3324">
+<text x="189" y="355" class="label">Makefile</text>
+<text x="342" y="355" text-anchor="end" class="value">&lt;0.01%</text>
+</g>
+<g data-language="GLSL" data-bytes="1980">
+<text x="189" y="382" class="label">GLSL</text>
+<text x="342" y="382" text-anchor="end" class="value">&lt;0.01%</text>
+</g>
+<g data-language="QMake" data-bytes="935">
+<text x="189" y="409" class="label">QMake</text>
+<text x="342" y="409" text-anchor="end" class="value">&lt;0.01%</text>
+</g>
+<g data-language="Kotlin" data-bytes="128">
+<text x="189" y="436" class="label">Kotlin</text>
+<text x="342" y="436" text-anchor="end" class="value">&lt;0.01%</text>
+</g>
+<g data-language="Objective-C" data-bytes="38">
+<text x="189" y="463" class="label">Objective-C</text>
+<text x="342" y="463" text-anchor="end" class="value">&lt;0.01%</text>
+</g>
+<path d="M 18 484 H 342" stroke="#30363D"/>
+<text x="18" y="510" class="section">Also in forked projects</text>
+<text x="18" y="532" class="note">Rust · Slint · MDX · M4 · Roff · WGSL · PowerShell</text>
+<text x="18" y="551" class="note">Metal · Assembly · Nix · Just · Inno Setup</text>
+<text x="18" y="570" class="note">Batchfile · NSIS</text>
+<metadata data-fork-language="Rust"/>
+<metadata data-fork-language="Slint"/>
+<metadata data-fork-language="MDX"/>
+<metadata data-fork-language="M4"/>
+<metadata data-fork-language="Roff"/>
+<metadata data-fork-language="WGSL"/>
+<metadata data-fork-language="PowerShell"/>
+<metadata data-fork-language="Metal"/>
+<metadata data-fork-language="Assembly"/>
+<metadata data-fork-language="Nix"/>
+<metadata data-fork-language="Just"/>
+<metadata data-fork-language="Inno Setup"/>
+<metadata data-fork-language="Batchfile"/>
+<metadata data-fork-language="NSIS"/>
+<text x="18" y="599" class="note">Public + forks: 2026-10-15 · Refreshed hourly</text>
+<text x="18" y="618" class="note">Private snapshot: 2026-10-15</text>
+</svg>

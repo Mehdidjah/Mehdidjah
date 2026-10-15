@@ -2,7 +2,7 @@
 
 GitHub and browsers cache raw image URLs. A content version makes new snapshots
 use a new URL, so a previously cached zero-day streak does not hide a correction.
-Run only after the six cards pass validation and the yearly archive is saved.
+Run only after the cards pass validation and the yearly archive is saved.
 """
 
 from datetime import datetime, timezone
@@ -21,15 +21,17 @@ def refresh(root: Path, generated_at: datetime) -> None:
     for kind in ("stats", "streak", "languages"):
         for theme in ("dark", "light"):
             version.update((root / "assets" / f"{kind}-{theme}.svg").read_bytes())
+            if kind == "languages":
+                version.update((root / "assets" / f"{kind}-{theme}-mobile.svg").read_bytes())
 
     path = root / "README.md"
     readme, count = re.subn(
-        r'(\./assets/(?:stats|streak|languages)-(?:dark|light)\.svg)(?:\?v=[a-f0-9]+)?',
+        r'(\./assets/(?:stats|streak|languages)-(?:dark|light)(?:-mobile)?\.svg)(?:\?v=[a-f0-9]+)?',
         lambda match: f"{match.group(1)}?v={version.hexdigest()[:16]}",
         path.read_text(),
     )
-    if count != 9:
-        raise ValueError(f"Expected nine themed stats image references; found {count}")
+    if count != 11:
+        raise ValueError(f"Expected eleven themed stats image references; found {count}")
 
     timestamp = generated_at.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     readme, count = re.subn(

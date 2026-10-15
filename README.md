@@ -25,14 +25,14 @@ Currently working with **Thinkercare Group** and deepening my skills in **JavaSc
 ### GitHub activity
 
 <!-- stats-updated:start -->
-<sub>Updated 2026-10-15 18:17 UTC · Scheduled hourly.</sub>
+<sub>Updated 2026-10-15 19:04 UTC · Scheduled hourly.</sub>
 <!-- stats-updated:end -->
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=4d3c9e2a84d984bf" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg?v=4d3c9e2a84d984bf" />
-    <img src="./assets/stats-light.svg?v=4d3c9e2a84d984bf" alt="Mehdi's yearly GitHub stats: calendar-year contributions including visible private activity, public commits, total stars, pull requests, issues, contributed repositories, and rank" width="495" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=cf5ad6e1c2f9a24e" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg?v=cf5ad6e1c2f9a24e" />
+    <img src="./assets/stats-light.svg?v=cf5ad6e1c2f9a24e" alt="Mehdi's yearly GitHub stats: calendar-year contributions including visible private activity, public commits, total stars, pull requests, issues, contributed repositories, and rank" width="495" />
   </picture>
 </p>
 
@@ -42,21 +42,25 @@ Currently working with **Thinkercare Group** and deepening my skills in **JavaSc
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg?v=4d3c9e2a84d984bf" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg?v=4d3c9e2a84d984bf" />
-    <img src="./assets/streak-light.svg?v=4d3c9e2a84d984bf" alt="Mehdi's total GitHub contributions, current daily streak, and longest streak" width="495" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg?v=cf5ad6e1c2f9a24e" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg?v=cf5ad6e1c2f9a24e" />
+    <img src="./assets/streak-light.svg?v=cf5ad6e1c2f9a24e" alt="Mehdi's total GitHub contributions, current daily streak, and longest streak" width="495" />
   </picture>
 </p>
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg?v=4d3c9e2a84d984bf" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg?v=4d3c9e2a84d984bf" />
-    <img src="./assets/languages-light.svg?v=4d3c9e2a84d984bf" alt="Mehdi's most-used languages by code size in public, non-fork repositories" width="495" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/languages-dark-mobile.svg?v=cf5ad6e1c2f9a24e" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/languages-light-mobile.svg?v=cf5ad6e1c2f9a24e" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/languages-dark.svg?v=cf5ad6e1c2f9a24e" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg?v=cf5ad6e1c2f9a24e" />
+    <img src="./assets/languages-light.svg?v=cf5ad6e1c2f9a24e" alt="All of Mehdi's languages by code size across public and private non-fork repositories, including Go, Swift, Elixir, Astro, C, Lua, and Shell; Rust and other fork-only languages are listed separately" width="495" />
   </picture>
 </p>
 
-<sub>Daily contribution streaks · Languages by code size in public repositories.</sub>
+<sub>Languages include public repositories and a dated private-project snapshot. Rust and other languages found only in forks are listed separately.</sub>
+
+[Language totals and refresh details](./stats/LANGUAGES.md)
 
 ---
 
