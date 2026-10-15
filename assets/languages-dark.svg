@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="34728244" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="34741069" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
 <title id="title">Most used languages</title>
-<desc id="description">All 28 languages by code size in 100 public and private non-fork repositories. TypeScript: 49.38%; JavaScript: 11.86%; CSS: 11.37%; HTML: 9.60%; Liquid: 8.48%; Go: 2.67%; Vue: 1.30%; Svelte: 1.05%; Dart: 1.02%; C++: 0.74%; Elixir: 0.61%; Swift: 0.57%; Astro: 0.50%; C: 0.18%; Lua: 0.18%; Python: 0.14%; CMake: 0.08%; Java: 0.07%; Shell: 0.04%; PLpgSQL: 0.04%; Dockerfile: 0.04%; SCSS: 0.04%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-15; private snapshot 2026-10-15; forks snapshot 2026-10-15.</desc>
+<desc id="description">All 28 languages by code size in 100 public and private non-fork repositories. TypeScript: 49.36%; JavaScript: 11.85%; CSS: 11.37%; HTML: 9.59%; Liquid: 8.47%; Go: 2.67%; Vue: 1.29%; Svelte: 1.05%; Dart: 1.02%; C++: 0.74%; Elixir: 0.61%; Swift: 0.57%; Astro: 0.50%; C: 0.18%; Lua: 0.18%; Python: 0.17%; CMake: 0.08%; Java: 0.07%; Shell: 0.04%; PLpgSQL: 0.04%; Dockerfile: 0.04%; SCSS: 0.04%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-15; private snapshot 2026-10-15; forks snapshot 2026-10-15.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:18px;font-weight:600;fill:#E6EDF3}.label{font-size:13px;fill:#C9D1D9}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#E6EDF3}.note{font-size:11px;fill:#9198A1}.section{font-size:12px;font-weight:600;fill:#9DCBB6}</style>
 <rect x="0.5" y="0.5" width="494" height="629" rx="8" fill="#0D1117" stroke="#30363D"/>
 <text x="25" y="33" class="heading">Most used languages</text>
@@ -9,11 +9,11 @@
 <path d="M 25 87 H 470" stroke="#30363D"/>
 <g data-language="TypeScript" data-bytes="17148265">
 <text x="25" y="112" class="label">TypeScript</text>
-<text x="229.5" y="112" text-anchor="end" class="value">49.38%</text>
+<text x="229.5" y="112" text-anchor="end" class="value">49.36%</text>
 </g>
 <g data-language="JavaScript" data-bytes="4117229">
 <text x="25" y="139" class="label">JavaScript</text>
-<text x="229.5" y="139" text-anchor="end" class="value">11.86%</text>
+<text x="229.5" y="139" text-anchor="end" class="value">11.85%</text>
 </g>
 <g data-language="CSS" data-bytes="3948507">
 <text x="25" y="166" class="label">CSS</text>
@@ -21,11 +21,11 @@
 </g>
 <g data-language="HTML" data-bytes="3333313">
 <text x="25" y="193" class="label">HTML</text>
-<text x="229.5" y="193" text-anchor="end" class="value">9.60%</text>
+<text x="229.5" y="193" text-anchor="end" class="value">9.59%</text>
 </g>
 <g data-language="Liquid" data-bytes="2943233">
 <text x="25" y="220" class="label">Liquid</text>
-<text x="229.5" y="220" text-anchor="end" class="value">8.48%</text>
+<text x="229.5" y="220" text-anchor="end" class="value">8.47%</text>
 </g>
 <g data-language="Go" data-bytes="927350">
 <text x="25" y="247" class="label">Go</text>
@@ -33,7 +33,7 @@
 </g>
 <g data-language="Vue" data-bytes="449847">
 <text x="25" y="274" class="label">Vue</text>
-<text x="229.5" y="274" text-anchor="end" class="value">1.30%</text>
+<text x="229.5" y="274" text-anchor="end" class="value">1.29%</text>
 </g>
 <g data-language="Svelte" data-bytes="363148">
 <text x="25" y="301" class="label">Svelte</text>
@@ -67,9 +67,9 @@
 <text x="265.5" y="112" class="label">Lua</text>
 <text x="470" y="112" text-anchor="end" class="value">0.18%</text>
 </g>
-<g data-language="Python" data-bytes="47412">
+<g data-language="Python" data-bytes="60237">
 <text x="265.5" y="139" class="label">Python</text>
-<text x="470" y="139" text-anchor="end" class="value">0.14%</text>
+<text x="470" y="139" text-anchor="end" class="value">0.17%</text>
 </g>
 <g data-language="CMake" data-bytes="29064">
 <text x="265.5" y="166" class="label">CMake</text>
