@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="34741069" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
 <title id="title">Most used languages</title>
-<desc id="description">All 28 languages by code size in 100 public and private non-fork repositories. TypeScript: 49.36%; JavaScript: 11.85%; CSS: 11.37%; HTML: 9.59%; Liquid: 8.47%; Go: 2.67%; Vue: 1.29%; Svelte: 1.05%; Dart: 1.02%; C++: 0.74%; Elixir: 0.61%; Swift: 0.57%; Astro: 0.50%; C: 0.18%; Lua: 0.18%; Python: 0.17%; CMake: 0.08%; Java: 0.07%; Shell: 0.04%; PLpgSQL: 0.04%; Dockerfile: 0.04%; SCSS: 0.04%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-17; private snapshot 2026-10-15; forks snapshot 2026-10-17.</desc>
+<desc id="description">All 28 languages by code size in 100 public and private non-fork repositories. TypeScript: 49.36%; JavaScript: 11.85%; CSS: 11.37%; HTML: 9.59%; Liquid: 8.47%; Go: 2.67%; Vue: 1.29%; Svelte: 1.05%; Dart: 1.02%; C++: 0.74%; Elixir: 0.61%; Swift: 0.57%; Astro: 0.50%; C: 0.18%; Lua: 0.18%; Python: 0.17%; CMake: 0.08%; Java: 0.07%; Shell: 0.04%; PLpgSQL: 0.04%; Dockerfile: 0.04%; SCSS: 0.04%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-18; private snapshot 2026-10-15; forks snapshot 2026-10-18.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:18px;font-weight:600;fill:#E6EDF3}.label{font-size:13px;fill:#C9D1D9}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#E6EDF3}.note{font-size:11px;fill:#9198A1}.section{font-size:12px;font-weight:600;fill:#9DCBB6}</style>
 <rect x="0.5" y="0.5" width="494" height="629" rx="8" fill="#0D1117" stroke="#30363D"/>
 <text x="25" y="33" class="heading">Most used languages</text>
@@ -137,6 +137,6 @@
 <metadata data-fork-language="Inno Setup"/>
 <metadata data-fork-language="Batchfile"/>
 <metadata data-fork-language="NSIS"/>
-<text x="25" y="580" class="note">Public + forks: 2026-10-17 · Refreshed hourly</text>
+<text x="25" y="580" class="note">Public + forks: 2026-10-18 · Refreshed hourly</text>
 <text x="25" y="599" class="note">Private snapshot: 2026-10-15</text>
 </svg>
