@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="37379559" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="37419958" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
 <title id="title">Most used languages</title>
-<desc id="description">All 28 languages by code size in 101 public and private non-fork repositories. TypeScript: 45.88%; JavaScript: 11.08%; CSS: 10.66%; HTML: 8.92%; Liquid: 7.87%; Swift: 7.06%; Go: 2.48%; Vue: 1.20%; Svelte: 1.09%; Dart: 0.95%; C++: 0.69%; Elixir: 0.56%; Astro: 0.47%; Python: 0.35%; C: 0.17%; Lua: 0.16%; Shell: 0.10%; CMake: 0.08%; Java: 0.07%; PLpgSQL: 0.04%; Dockerfile: 0.03%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-23; private snapshot 2026-10-15; forks snapshot 2026-10-23.</desc>
+<desc id="description">All 28 languages by code size in 101 public and private non-fork repositories. TypeScript: 45.83%; JavaScript: 11.07%; CSS: 10.65%; HTML: 8.91%; Liquid: 7.87%; Swift: 7.16%; Go: 2.48%; Vue: 1.20%; Svelte: 1.09%; Dart: 0.95%; C++: 0.69%; Elixir: 0.56%; Astro: 0.47%; Python: 0.35%; C: 0.17%; Lua: 0.16%; Shell: 0.10%; CMake: 0.08%; Java: 0.07%; PLpgSQL: 0.04%; Dockerfile: 0.03%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-10-23; private snapshot 2026-10-15; forks snapshot 2026-10-23.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:18px;font-weight:600;fill:#1F2328}.label{font-size:13px;fill:#59636E}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#1F2328}.note{font-size:11px;fill:#59636E}.section{font-size:12px;font-weight:600;fill:#346538}</style>
 <rect x="0.5" y="0.5" width="494" height="629" rx="8" fill="#FFFFFF" stroke="#EAEAEA"/>
 <text x="25" y="33" class="heading">Most used languages</text>
@@ -9,27 +9,27 @@
 <path d="M 25 87 H 470" stroke="#EAEAEA"/>
 <g data-language="TypeScript" data-bytes="17148265">
 <text x="25" y="112" class="label">TypeScript</text>
-<text x="229.5" y="112" text-anchor="end" class="value">45.88%</text>
+<text x="229.5" y="112" text-anchor="end" class="value">45.83%</text>
 </g>
 <g data-language="JavaScript" data-bytes="4142788">
 <text x="25" y="139" class="label">JavaScript</text>
-<text x="229.5" y="139" text-anchor="end" class="value">11.08%</text>
+<text x="229.5" y="139" text-anchor="end" class="value">11.07%</text>
 </g>
 <g data-language="CSS" data-bytes="3983918">
 <text x="25" y="166" class="label">CSS</text>
-<text x="229.5" y="166" text-anchor="end" class="value">10.66%</text>
+<text x="229.5" y="166" text-anchor="end" class="value">10.65%</text>
 </g>
 <g data-language="HTML" data-bytes="3335800">
 <text x="25" y="193" class="label">HTML</text>
-<text x="229.5" y="193" text-anchor="end" class="value">8.92%</text>
+<text x="229.5" y="193" text-anchor="end" class="value">8.91%</text>
 </g>
 <g data-language="Liquid" data-bytes="2943233">
 <text x="25" y="220" class="label">Liquid</text>
 <text x="229.5" y="220" text-anchor="end" class="value">7.87%</text>
 </g>
-<g data-language="Swift" data-bytes="2637979">
+<g data-language="Swift" data-bytes="2678378">
 <text x="25" y="247" class="label">Swift</text>
-<text x="229.5" y="247" text-anchor="end" class="value">7.06%</text>
+<text x="229.5" y="247" text-anchor="end" class="value">7.16%</text>
 </g>
 <g data-language="Go" data-bytes="927350">
 <text x="25" y="274" class="label">Go</text>
