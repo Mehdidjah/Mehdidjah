@@ -1,6 +1,6 @@
 {
   "forks": {
-    "captured_at": "2026-11-15T09:22:31+00:00",
+    "captured_at": "2026-11-15T17:07:46+00:00",
     "languages": {
       "Assembly": 14136,
       "Astro": 148080,
@@ -65,7 +65,7 @@
     "repository_count": 47
   },
   "public": {
-    "captured_at": "2026-11-15T09:22:31+00:00",
+    "captured_at": "2026-11-15T17:07:46+00:00",
     "languages": {
       "Astro": 175022,
       "C": 60712,
@@ -80,14 +80,14 @@
       "JavaScript": 874159,
       "Lua": 61238,
       "Makefile": 2496,
-      "PLpgSQL": 5028,
+      "PLpgSQL": 4935,
       "Python": 103148,
       "QMake": 935,
       "SCSS": 12596,
       "Shell": 24078,
       "Svelte": 231464,
       "Swift": 2445050,
-      "TypeScript": 4192015,
+      "TypeScript": 4250687,
       "Vue": 272752
     },
     "repository_count": 56
