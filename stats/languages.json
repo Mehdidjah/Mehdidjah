@@ -1,6 +1,6 @@
 {
   "forks": {
-    "captured_at": "2026-11-16T09:39:05+00:00",
+    "captured_at": "2026-11-16T20:27:26+00:00",
     "languages": {
       "Assembly": 14136,
       "Astro": 148080,
@@ -65,7 +65,7 @@
     "repository_count": 47
   },
   "public": {
-    "captured_at": "2026-11-16T09:39:05+00:00",
+    "captured_at": "2026-11-16T20:27:26+00:00",
     "languages": {
       "Astro": 175022,
       "C": 60712,
@@ -76,7 +76,7 @@
       "Dockerfile": 3052,
       "Elixir": 211154,
       "GLSL": 1980,
-      "HTML": 367320,
+      "HTML": 444212,
       "JavaScript": 874159,
       "Lua": 61238,
       "Makefile": 2496,
@@ -87,10 +87,10 @@
       "Shell": 24078,
       "Svelte": 231464,
       "Swift": 2445050,
-      "TypeScript": 4250687,
+      "TypeScript": 4330602,
       "Vue": 272752
     },
-    "repository_count": 56
+    "repository_count": 57
   },
   "username": "Mehdidjah",
   "version": 1
