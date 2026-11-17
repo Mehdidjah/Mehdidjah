@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="649" viewBox="0 0 360 649" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="38200879" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="649" viewBox="0 0 360 649" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="38219768" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
 <title id="title">Most used languages</title>
-<desc id="description">All 28 languages by code size in 104 public and private non-fork repositories. TypeScript: 46.81%; JavaScript: 10.90%; CSS: 10.43%; HTML: 8.94%; Liquid: 7.70%; Swift: 6.92%; Go: 2.43%; Vue: 1.18%; Svelte: 1.07%; Dart: 0.93%; C++: 0.68%; Elixir: 0.55%; Astro: 0.46%; Python: 0.27%; C: 0.16%; Lua: 0.16%; Shell: 0.09%; CMake: 0.08%; Java: 0.06%; PLpgSQL: 0.05%; Dockerfile: 0.04%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-11-17; private snapshot 2026-10-15; forks snapshot 2026-11-17.</desc>
+<desc id="description">All 28 languages by code size in 104 public and private non-fork repositories. TypeScript: 46.84%; JavaScript: 10.90%; CSS: 10.42%; HTML: 8.93%; Liquid: 7.70%; Swift: 6.92%; Go: 2.43%; Vue: 1.18%; Svelte: 1.07%; Dart: 0.93%; C++: 0.68%; Elixir: 0.55%; Astro: 0.46%; Python: 0.27%; C: 0.16%; Lua: 0.16%; Shell: 0.09%; CMake: 0.08%; Java: 0.06%; PLpgSQL: 0.05%; Dockerfile: 0.04%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-11-17; private snapshot 2026-10-15; forks snapshot 2026-11-17.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:17px;font-weight:600;fill:#E6EDF3}.label{font-size:13px;fill:#C9D1D9}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#E6EDF3}.note{font-size:11px;fill:#9198A1}.section{font-size:12px;font-weight:600;fill:#9DCBB6}</style>
 <rect x="0.5" y="0.5" width="359" height="648" rx="8" fill="#0D1117" stroke="#30363D"/>
 <text x="18" y="33" class="heading">Most used languages</text>
 <text x="18" y="55" class="note">Code size · Public + private · Non-fork repositories</text>
 <text x="18" y="73" class="note">All 28 languages · 104 repositories</text>
 <path d="M 18 87 H 342" stroke="#30363D"/>
-<g data-language="TypeScript" data-bytes="17881696">
+<g data-language="TypeScript" data-bytes="17900585">
 <text x="18" y="112" class="label">TypeScript</text>
-<text x="171" y="112" text-anchor="end" class="value">46.81%</text>
+<text x="171" y="112" text-anchor="end" class="value">46.84%</text>
 </g>
 <g data-language="JavaScript" data-bytes="4165594">
 <text x="18" y="139" class="label">JavaScript</text>
@@ -17,11 +17,11 @@
 </g>
 <g data-language="CSS" data-bytes="3983918">
 <text x="18" y="166" class="label">CSS</text>
-<text x="171" y="166" text-anchor="end" class="value">10.43%</text>
+<text x="171" y="166" text-anchor="end" class="value">10.42%</text>
 </g>
 <g data-language="HTML" data-bytes="3414047">
 <text x="18" y="193" class="label">HTML</text>
-<text x="171" y="193" text-anchor="end" class="value">8.94%</text>
+<text x="171" y="193" text-anchor="end" class="value">8.93%</text>
 </g>
 <g data-language="Liquid" data-bytes="2943233">
 <text x="18" y="220" class="label">Liquid</text>
