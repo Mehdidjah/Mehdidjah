@@ -1,6 +1,6 @@
 {
   "forks": {
-    "captured_at": "2026-11-18T04:18:34+00:00",
+    "captured_at": "2026-11-18T13:56:23+00:00",
     "languages": {
       "Assembly": 14136,
       "Astro": 148080,
@@ -65,7 +65,7 @@
     "repository_count": 47
   },
   "public": {
-    "captured_at": "2026-11-18T04:18:34+00:00",
+    "captured_at": "2026-11-18T13:56:23+00:00",
     "languages": {
       "Astro": 175022,
       "C": 60712,
@@ -87,7 +87,7 @@
       "Shell": 24078,
       "Svelte": 231464,
       "Swift": 2445050,
-      "TypeScript": 4371949,
+      "TypeScript": 4405047,
       "Vue": 272752
     },
     "repository_count": 57
