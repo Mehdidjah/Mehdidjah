@@ -6,7 +6,7 @@ Each year retains its last successful snapshot. Select a year to view its card.
 
 | Year | Contributions in year | Public commits in year | Total stars | Total PRs | Total issues | Repos in last year | Rank | Last saved (UTC) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | :---: | --- |
-| [2026](./2026/README.md) | 2,673 | 551 | 45 | 5 | 1 | 3 | B- | 2026-11-20 |
+| [2026](./2026/README.md) | 2,716 | 593 | 45 | 6 | 1 | 3 | B- | 2026-11-20 |
 
 ## What the numbers mean
 
