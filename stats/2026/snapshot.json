@@ -1,16 +1,16 @@
 {
   "year": 2026,
   "username": "Mehdidjah",
-  "captured_at": "2026-11-20T20:14:22Z",
+  "captured_at": "2026-11-21T01:32:05Z",
   "year_timezone": "Africa/Algiers",
   "contributions_source": "https://github.com/users/Mehdidjah/contributions?from=2026-01-01&to=2026-12-31",
   "metrics": {
-    "contributions": 2716,
+    "contributions": 2739,
     "stars": 45,
-    "commits": 593,
-    "prs": 6,
+    "commits": 613,
+    "prs": 8,
     "issues": 1,
     "contribs": 3,
-    "rank": "B-"
+    "rank": "B"
   }
 }

@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="39213358" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="630" viewBox="0 0 495 630" role="img" aria-labelledby="title description" data-language-count="28" data-total-bytes="39272446" data-private-captured-at="2026-10-15T18:53:28.617004+00:00">
 <title id="title">Most used languages</title>
-<desc id="description">All 28 languages by code size in 104 public and private non-fork repositories. TypeScript: 48.03%; JavaScript: 10.57%; CSS: 10.39%; HTML: 8.71%; Liquid: 7.51%; Swift: 6.74%; Go: 2.36%; Vue: 1.15%; Svelte: 1.04%; Dart: 0.91%; C++: 0.66%; Elixir: 0.54%; Astro: 0.45%; Python: 0.24%; C: 0.16%; Lua: 0.16%; Shell: 0.09%; CMake: 0.07%; Java: 0.06%; PLpgSQL: 0.05%; Dockerfile: 0.04%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-11-20; private snapshot 2026-10-15; forks snapshot 2026-11-20.</desc>
+<desc id="description">All 28 languages by code size in 103 public and private non-fork repositories. TypeScript: 48.30%; JavaScript: 10.55%; CSS: 10.38%; HTML: 8.50%; Liquid: 7.49%; Swift: 6.73%; Go: 2.36%; Vue: 1.15%; Svelte: 1.04%; Dart: 0.91%; C++: 0.66%; Elixir: 0.54%; Astro: 0.45%; Python: 0.24%; C: 0.16%; Lua: 0.16%; Shell: 0.09%; CMake: 0.07%; Java: 0.06%; PLpgSQL: 0.05%; Dockerfile: 0.04%; SCSS: 0.03%; C#: 0.03%; Makefile: &lt;0.01%; GLSL: &lt;0.01%; QMake: &lt;0.01%; Kotlin: &lt;0.01%; Objective-C: &lt;0.01%. Additional languages found only in forks: Rust, Slint, MDX, M4, Roff, WGSL, PowerShell, Metal, Assembly, Nix, Just, Inno Setup, Batchfile, NSIS. Public snapshot 2026-11-21; private snapshot 2026-10-15; forks snapshot 2026-11-21.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:18px;font-weight:600;fill:#E6EDF3}.label{font-size:13px;fill:#C9D1D9}.value{font-size:12px;font-variant-numeric:tabular-nums;fill:#E6EDF3}.note{font-size:11px;fill:#9198A1}.section{font-size:12px;font-weight:600;fill:#9DCBB6}</style>
 <rect x="0.5" y="0.5" width="494" height="629" rx="8" fill="#0D1117" stroke="#30363D"/>
 <text x="25" y="33" class="heading">Most used languages</text>
 <text x="25" y="55" class="note">Code size · Public + private · Non-fork repositories</text>
-<text x="25" y="73" class="note">All 28 languages · 104 repositories</text>
+<text x="25" y="73" class="note">All 28 languages · 103 repositories</text>
 <path d="M 25 87 H 470" stroke="#30363D"/>
-<g data-language="TypeScript" data-bytes="18832273">
+<g data-language="TypeScript" data-bytes="18967785">
 <text x="25" y="112" class="label">TypeScript</text>
-<text x="229.5" y="112" text-anchor="end" class="value">48.03%</text>
+<text x="229.5" y="112" text-anchor="end" class="value">48.30%</text>
 </g>
 <g data-language="JavaScript" data-bytes="4143973">
 <text x="25" y="139" class="label">JavaScript</text>
-<text x="229.5" y="139" text-anchor="end" class="value">10.57%</text>
+<text x="229.5" y="139" text-anchor="end" class="value">10.55%</text>
 </g>
-<g data-language="CSS" data-bytes="4074218">
+<g data-language="CSS" data-bytes="4074686">
 <text x="25" y="166" class="label">CSS</text>
-<text x="229.5" y="166" text-anchor="end" class="value">10.39%</text>
+<text x="229.5" y="166" text-anchor="end" class="value">10.38%</text>
 </g>
-<g data-language="HTML" data-bytes="3415284">
+<g data-language="HTML" data-bytes="3338392">
 <text x="25" y="193" class="label">HTML</text>
-<text x="229.5" y="193" text-anchor="end" class="value">8.71%</text>
+<text x="229.5" y="193" text-anchor="end" class="value">8.50%</text>
 </g>
 <g data-language="Liquid" data-bytes="2943233">
 <text x="25" y="220" class="label">Liquid</text>
-<text x="229.5" y="220" text-anchor="end" class="value">7.51%</text>
+<text x="229.5" y="220" text-anchor="end" class="value">7.49%</text>
 </g>
 <g data-language="Swift" data-bytes="2644697">
 <text x="25" y="247" class="label">Swift</text>
-<text x="229.5" y="247" text-anchor="end" class="value">6.74%</text>
+<text x="229.5" y="247" text-anchor="end" class="value">6.73%</text>
 </g>
 <g data-language="Go" data-bytes="927350">
 <text x="25" y="274" class="label">Go</text>
@@ -137,6 +137,6 @@
 <metadata data-fork-language="Inno Setup"/>
 <metadata data-fork-language="Batchfile"/>
 <metadata data-fork-language="NSIS"/>
-<text x="25" y="580" class="note">Public + forks: 2026-11-20 · Refreshed hourly</text>
+<text x="25" y="580" class="note">Public + forks: 2026-11-21 · Refreshed hourly</text>
 <text x="25" y="599" class="note">Private snapshot: 2026-10-15</text>
 </svg>
